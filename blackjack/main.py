@@ -91,8 +91,7 @@ def main():
         if user_input == "h":
             hand, possible_hands = hit(hand, possible_hands)
         else:
-            print(max(possible_hands), type(max(possible_hands)))
-            print("Your hand:" + ' '.join(hand) + "value: " + str(max(possible_hands)))
+            print("Your hand:" + ' '.join(hand) + " value: " + str(max(possible_hands)))
             dealers_turn(max(possible_hands))
             exit()
 
