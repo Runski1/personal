@@ -6,6 +6,7 @@ import json
 url = input("giv url: ")
 html_doc = requests.get(url).text
 soup = BeautifulSoup(html_doc, 'lxml')
+print(soup)
 product_info = soup.select('.ProductInformation')
 for product in product_info:
     data_mcf_link = product.a['data-mcf-link']
