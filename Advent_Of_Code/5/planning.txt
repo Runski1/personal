@@ -1,0 +1,6 @@
+En voi käydä jokaista siementä läpi ja katsoa, mikä on lähin sijainti
+Voisin käydä käänteisesti läpi, etsiä pienimmän lokaation, ja katsoa matchaako sille siemen.
+
+Yksi idea olisi luoda yleispätevä muuntaja, yksi muuntotaulu jonka läpi luvut syötetään sen sijaan että luku loopataan
+joka taulun läpi
+
